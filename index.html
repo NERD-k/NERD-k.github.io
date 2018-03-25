@@ -278,10 +278,19 @@
     <article id="post-vim-编辑器之神" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/zh-Hans/工具/undefined-03-24/" class="article-date">
+      <a href="/zh-Hans/工具/vim-编辑器之神-03-24/" class="article-date">
       <time datetime="2018-03-24T07:56:20.000Z" itemprop="datePublished">3-24-2018</time>
 </a>
 
+ 
+    <a href="/zh-Hans/工具/vim-编辑器之神-03-24/#comments" title="查看评论">
+        <i class="fa fa-comments-o" aria-hidden="true"></i>
+        <span class="count-comment"></span>
+        
+        
+            <span class="disqus-comment-count" data-disqus-identifier="zh-Hans/工具/vim-编辑器之神-03-24/"></span>
+        
+    </a>
 
     </div>
   
@@ -294,7 +303,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/zh-Hans/工具/undefined-03-24/">vim 编辑器之神</a>
+      <a class="article-title" href="/zh-Hans/工具/vim-编辑器之神-03-24/">vim 编辑器之神</a>
     </h1>
   
 
@@ -324,7 +333,7 @@
 
       
         <p class="article-more-link">
-          <a href="/zh-Hans/工具/undefined-03-24/#more">阅读全文 >></a>
+          <a href="/zh-Hans/工具/vim-编辑器之神-03-24/#more">阅读全文 >></a>
         </p>
       
       <div class="clearfix"></div>
@@ -379,6 +388,8 @@
 </footer>
     </div>
     
+    <script src="/js/GithubRepoWidget.js"></script>
+
 <script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
 
     <script>
@@ -400,9 +411,46 @@
 
     
 
+    
+        <script id="dsq-count-scr" src="//nerd-k.disqus.com/count.js" async></script>
+        <script>
+            if ($(".left-col").is(":visible")) {
+                var $disqusCount = $(".disqus-comment-count");
+                $disqusCount.bind("DOMNodeInserted", function(e) {
+                    var num = $(this).text().replace(/[^0-9]/ig,"");
+                    if (num > 0) {
+                        $(this).siblings(".count-comment").text(num);
+                    }
+                    $(this).remove();
+                })
+            } else {
+                $(".disqus-comment-count").remove();
+            }
+        </script>
      
 
 
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 
 <div class="scroll" id="scroll">
@@ -414,7 +462,7 @@
     // Open in New Window
     
         var oOpenInNew = {
-            
+             github: ".github-widget a", 
             
             
             

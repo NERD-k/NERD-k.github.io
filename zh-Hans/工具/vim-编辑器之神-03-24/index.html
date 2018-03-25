@@ -19,7 +19,7 @@
 <meta name="keywords" content="vim,文本编辑器">
 <meta property="og:type" content="article">
 <meta property="og:title" content="vim 编辑器之神">
-<meta property="og:url" content="https://nerd-k.github.io/zh-Hans/工具/undefined-03-24/index.html">
+<meta property="og:url" content="https://nerd-k.github.io/zh-Hans/工具/vim-编辑器之神-03-24/index.html">
 <meta property="og:site_name" content="NERD的博客">
 <meta property="og:description" content="vim,被誉为编辑器之神。本文记录我对vim学习与使用：vim插件管理工具Plug、vim个人设置`.vimrc`、一些vim的使用技巧。">
 <meta property="og:locale" content="zh-Hans">
@@ -276,10 +276,19 @@
       <div class="body-wrap"><article id="post-vim-编辑器之神" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/zh-Hans/工具/undefined-03-24/" class="article-date">
+      <a href="/zh-Hans/工具/vim-编辑器之神-03-24/" class="article-date">
       <time datetime="2018-03-24T07:56:20.000Z" itemprop="datePublished">3-24-2018</time>
 </a>
 
+ 
+    <a href="/zh-Hans/工具/vim-编辑器之神-03-24/#comments" title="查看评论">
+        <i class="fa fa-comments-o" aria-hidden="true"></i>
+        <span class="count-comment"></span>
+        
+        
+            <span class="disqus-comment-count" data-disqus-identifier="zh-Hans/工具/vim-编辑器之神-03-24/"></span>
+        
+    </a>
 
     </div>
   
@@ -355,7 +364,7 @@
             </tr>
             <tr>
                 <td>
-                    <p><span>本文标题:</span><a href="/zh-Hans/工具/undefined-03-24/">vim 编辑器之神</a></p>
+                    <p><span>本文标题:</span><a href="/zh-Hans/工具/vim-编辑器之神-03-24/">vim 编辑器之神</a></p>
                 </td>
                 <td>
                     <p><span>最后更新:</span>2018-03-24, 16:45:50</p>
@@ -370,8 +379,8 @@
 
         <!--
         <p>
-            <span>原始链接:</span><a class="post-url" href="/zh-Hans/工具/undefined-03-24/" title="vim 编辑器之神">https://nerd-k.github.io/zh-Hans/工具/undefined-03-24/</a>
-            <span class="copy-path" data-clipboard-text="原文: https://nerd-k.github.io/zh-Hans/工具/undefined-03-24/　　作者: NERD" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/zh-Hans/工具/vim-编辑器之神-03-24/" title="vim 编辑器之神">https://nerd-k.github.io/zh-Hans/工具/vim-编辑器之神-03-24/</a>
+            <span class="copy-path" data-clipboard-text="原文: https://nerd-k.github.io/zh-Hans/工具/vim-编辑器之神-03-24/　　作者: NERD" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         -->
@@ -425,6 +434,66 @@
 
 
     
+        <section id="comments">
+    <style> aside.comment-bar { margin: auto 30px; }</style>
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function(){
+            this.page.url = 'https://nerd-k.github.io/zh-Hans/工具/vim-编辑器之神-03-24/';
+            this.page.identifier = 'zh-Hans/工具/vim-编辑器之神-03-24/';
+        };
+        var loadComment = function(){
+            var d = document, s = d.createElement('script');
+            s.src = '//nerd-k.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        }
+    </script>
+    
+    <aside class="comment-bar">
+        <a href="javascript:void(0);">
+            <i class="fa fa-commenting-o animated infinite pulse"></i>
+            <i class="fa fa-spinner fa-pulse"></i>
+            <span class="count-comment"></span>
+        </a>
+    </aside>
+    <script>
+        var $commentBar = $("#comments aside.comment-bar");
+        var load$hide = function(){
+            $commentBar.find("a > i").toggle();
+            loadComment();
+            $commentBar.fadeOut(800);
+        }
+        $commentBar.click(function(){
+            load$hide();
+        })
+        $commentBar.children("a").hover(function(){
+            load$hide();
+        })
+        if (window.location.hash === "#comments") {
+            load$hide();
+        }
+    </script>
+
+</section>
+
+
+    // Add comment count
+    <script id="dsq-count-scr" src="//nerd-k.disqus.com/count.js" async></script>
+    <span class="disqus-comment-count" data-disqus-identifier="zh-Hans/工具/vim-编辑器之神-03-24/"></span>
+    <span class="disqus-comment-count" data-disqus-url="https://nerd-k.github.io/zh-Hans/工具/vim-编辑器之神-03-24/"></span>
+    <script>
+        $(".disqus-comment-count").hide();
+        var $disqusCount = $(".disqus-comment-count");
+        $disqusCount.bind("DOMNodeInserted", function(e) {
+            $(".count-comment").text(
+                $(this).text().replace(/[^0-9]/ig,"")
+            )
+            DISQUSWIDGETS.getCount({reset: true});
+        })
+    </script>
+
+    
 
 
 
@@ -441,7 +510,7 @@
         
     </div>
 
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/zh-Hans/工具/undefined-03-24/">vim 编辑器之神</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/zh-Hans/工具/vim-编辑器之神-03-24/">vim 编辑器之神</a></li></ul>
 
 
 
@@ -484,6 +553,8 @@
 </footer>
     </div>
     
+    <script src="/js/GithubRepoWidget.js"></script>
+
 <script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
 
     <script>
@@ -506,6 +577,27 @@
 
 
 
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
 <div class="scroll" id="scroll">
     <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
     <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
@@ -515,7 +607,7 @@
     // Open in New Window
     
         var oOpenInNew = {
-            
+             github: ".github-widget a", 
             
             
             
